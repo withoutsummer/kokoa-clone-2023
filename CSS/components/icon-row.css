@@ -1,0 +1,35 @@
+.icon-row{
+    display: flex;
+    padding-bottom: 25px;
+
+}
+
+
+.icon-row__icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 137px;
+    height: 80px;
+}
+
+.icon-row__icon i{
+    font-size: 35px;
+
+}
+
+.icon-row__icon span,
+.icon-row__icon i{
+    opacity: 0.8;
+    margin-top:10px;
+}
+
+.icon-row__icon .material-icons{
+    margin: 0;
+    
+}
+
+.icon-row .icons{
+    font-size: 45px;
+    padding: 0 30px;
+}
